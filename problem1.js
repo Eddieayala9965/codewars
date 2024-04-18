@@ -13,18 +13,25 @@
 // A list may contain multiple flicks.
 // Switch the boolean value on the same element as the flick itself.
 
-console.log("hello world");
+// words = ["flick", "codewars", "yellow", "blue", "flick", "flick"];
 
-words = ["flick", "codewars", "yellow", "blue"];
-const flickSwitch = (array) => {
-  let flaseArray = false;
-  for (let i = 0; i < array.length; i++)
-    if (array[i] === true) {
-      console.log("Flick is true");
-    }
-  if (array.length === false) {
-    console.log("rest of array is false");
-    return false;
-  }
-};
-console.log(flickSwitch(words));
+// const flickSwitch = (array) => {
+//   for (let i = 0; i < array.length; i++)
+//     if (array === "flick") {
+//       console.log(array[i]);
+//       return true;
+//     }
+//   if (array.length) {
+//     console.log("rest of array is false", array);
+//     return false;
+//   }
+// };
+// console.log(flickSwitch(words));
+
+
+for(let i = 0 ; i < 100; i++){
+  if ("Fizz" === 0 % 2 && "Buzz" )
+}
+
+
+
