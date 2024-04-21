@@ -28,10 +28,4 @@
 // };
 // console.log(flickSwitch(words));
 
-
-for(let i = 0 ; i < 100; i++){
-  if ("Fizz" === 0 % 2 && "Buzz" )
-}
-
-
-
+git;
