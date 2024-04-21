@@ -1,11 +1,42 @@
 // 1. Fizz Buzz
 // Write a program that prints the numbers from 1 to 100. But for multiples of three, print "Fizz" instead of the number, and for the multiples of five, print "Buzz." For numbers which are multiples of both three and five, print "FizzBuzz."
 
+// const fizzBuzz = () => {
+//   for (let i = 1; i <= 100; i++) {
+//     if (i % 3 === 0 && i % 5 === 0) {
+//       console.log("FizzBuzz");
+//     } else if (i % 3 === 0) {
+//       console.log("Fizz");
+//     } else if (i % 5 === 0) {
+//       console.log("Buzz");
+//     }
+//   }
+// };
+
+// fizzBuzz();
+
 // 2. Palindrome Checker
 // Create a function that checks if a string is a palindrome (a string that reads the same forward and backward). Ignore spaces, punctuation, and case sensitivity in your check.
 
+const palindromeChecker = (str) => {
+  const reversedStr = str.split("").reverse().join("");
+  console.log(str === reversedStr);
+  return str === reversedStr;
+};
+palindromeChecker("racecar");
+
 // 3. Factorial Finder
 // Write a function that returns the factorial of a given number. The factorial of a number is the product of all positive integers less than or equal to the number.
+
+const factorialFinder = (num) => {
+  let result = 1;
+  for (let i = 1; i <= num; i++) {
+    result *= i;
+  }
+  console.log(result);
+  return result;
+};
+factorialFinder(5);
 
 // 4. Fibonacci Sequence
 // Generate a function that returns the first n numbers of the Fibonacci sequence. In this sequence, each number is the sum of the two preceding ones, starting from 0 and 1.
