@@ -55,7 +55,7 @@ factorialFinder(5);
 
 // h: 1
 // e: 1
-// l: 2
+// l:
 // o: 1
 // 9. Reverse a String
 // Write a function that reverses a string. Try to do this in at least two different ways: using built-in methods and manually.
