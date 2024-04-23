@@ -1,19 +1,21 @@
 // 1. Fizz Buzz
 // Write a program that prints the numbers from 1 to 100. But for multiples of three, print "Fizz" instead of the number, and for the multiples of five, print "Buzz." For numbers which are multiples of both three and five, print "FizzBuzz."
 
-// const fizzBuzz = () => {
-//   for (let i = 1; i <= 100; i++) {
-//     if (i % 3 === 0 && i % 5 === 0) {
-//       console.log("FizzBuzz");
-//     } else if (i % 3 === 0) {
-//       console.log("Fizz");
-//     } else if (i % 5 === 0) {
-//       console.log("Buzz");
-//     }
-//   }
-// };
+const fizzBuzz = () => {
+  for (let i = 1; i <= 100; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+      console.log("FizzBuzz");
+    } else if (i % 3 === 0) {
+      console.log("Fizz");
+    } else if (i % 5 === 0) {
+      console.log("Buzz");
+    } else if (i % 7 === 0) {
+      console.log("Bang");
+    }
+  }
+};
 
-// fizzBuzz();
+fizzBuzz();
 
 // 2. Palindrome Checker
 // Create a function that checks if a string is a palindrome (a string that reads the same forward and backward). Ignore spaces, punctuation, and case sensitivity in your check.
@@ -62,3 +64,34 @@ factorialFinder(5);
 
 // 10. Max and Min in a List
 // Create a function that takes a list of numbers and returns a tuple containing the smallest and largest numbers in the list.
+
+// 1. Sum of Two Numbers
+// Task: Write a function that takes two numbers as arguments and returns their sum.
+
+const SumOfNum = (num1, num2) => {
+  return num1 + num2;
+};
+console.log(SumOfNum(5, 10));
+
+// 3. Array Length
+// Task: Write a function that takes an array as an argument and returns the length of the array.
+
+const arrayLength = (arr) => {
+  return arr.length;
+};
+console.log(arrayLength([1, 2, 3, 4, 5]));
+
+// 4. Even or Odd
+// Task: Write a function that takes a number as an argument and prints "Even" if the number is even and "Odd" if the number is odd.
+
+const evenOrOdd = (num) => {
+  if (num === 0 % 2) {
+    console.log("");
+  }
+  if (num === 0 % 3) {
+    console.log("odd");
+  }
+};
+
+// 5. Max Number
+// Task: Write a function that takes two numbers as arguments and returns the larger number.
